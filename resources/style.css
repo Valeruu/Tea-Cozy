@@ -108,12 +108,25 @@ li {
   margin: 0px auto;
 }
 
-.menu {
+.menu-top {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
+  margin-top: 20px;
+
+}
+
+.menu-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 675px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-content: center;
   margin-top: 20px;
 }
 
